@@ -17,3 +17,30 @@ Notebook Outline:
 - Training our networks on different types of data, for multi class classification.
 
 Data Used in this notebook will be imported from sklearn_datasets.
+
+# Vectorized Feed Forward Neural Networks
+
+The Vectorized_Neural_Networks notebook contains code that shows FeedForward Neural Networks, in which vectorization has been implemented to accelerate the training process. 
+
+Notebook Outline:
+
+Creating blob data set for training.
+Depicting slow training using Scalar Version of FeedForward network.
+Adding vectorization to weights to speed up the training process.
+Adding vectorization to weights and inputs for maximum acceleration.
+Note: The speed of training has been mentioned in a comment under the corresponding cells.
+
+# Learning Algorithm Implementation 
+
+The Learning_Algorithm_scalar notebook contains some of the code I've built to get insights into how the backpropagation algorithm works in Feed Forward Neural Networks. I've limited myself to using only the scalar version, in which single inputs are passed to the network at a time. This slows down the training, but we can store values of each neuron which helps in visualization. 
+
+Notebook Outline:
+
+Writing down a simple scalar network having only 3 neurons.
+Generating blob data for training and visualizing loss plots.
+Creating a function for visualizing the final trained states of all three neurons.
+Writing a scalar class of a bigger network with 7 neurons, used for multi class classification.
+Training, visualizing loss plots and final states of all the neurons.
+Building animations showing how the neurons in the networks adapt to the data given.
+The animation videos generated on running the corresponding code in the notebooks are not given in the output and have been attached separately in the repository. The names have been referenced in the comments wherever necessary.
+
